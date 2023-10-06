@@ -13,6 +13,8 @@ public class main {
                     System.out.println(n+" ");
                     count++;
                     break;
+                }if (n>100){
+                    return;
                 }
             }
 
